@@ -261,7 +261,6 @@ function App() {
             key={tab}
             className={activeTab === tab ? 'active' : ''}
             onClick={() => setActiveTab(tab)}
-            aria-selected={activeTab === tab}
           >
             {tab === 'gi' ? 'GI Filter' : tab === 'saved' ? `Saved (${favorites.length})` : tab.charAt(0).toUpperCase() + tab.slice(1)}
           </button>
