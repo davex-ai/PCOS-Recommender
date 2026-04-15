@@ -1,3 +1,5 @@
+import { GIBar } from './ToolTip';
+import { giColor, giLabel, pcosColor } from './helpers';
 
 export default function NutritionModal({ food, onClose, favorites, avoids, toggleFavorite, toggleAvoid }) {
 
